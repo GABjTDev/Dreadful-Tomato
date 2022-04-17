@@ -1,0 +1,54 @@
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and(min-width: '1024px'){
+        flex-direction: row;
+    }
+
+}
+
+.main--contain{
+    width: 100%;
+    height: 580px;
+    position: relative;
+    cursor: pointer;
+
+    @media screen and(min-width: '1024px'){
+        height: 1100px;
+    }
+
+}
+
+.main--contain img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main--contain-text{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgba($red, 1);
+    position: absolute;
+    bottom: 0;
+    padding: 30px 20px;
+    transition: all 1s ease;
+
+    h2{
+        font-size: 3em;
+        color: white;
+    }
+
+    @media screen and(min-width: '768px'){
+        padding: 50px 40px;
+    }
+
+}
+
+.main--contain:hover > .main--contain-text{
+    background-color: rgba($red, .7);
+}

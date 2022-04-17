@@ -1,0 +1,36 @@
+.pagination{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 270px;
+    margin: 0 auto;
+}
+
+.pagination .circle{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: $red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pagination .circle:hover{
+    background-color: $redHover;
+}
+
+.pagination .circle.active{
+    background-color: $redHover;
+}
+
+
+.pagination img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.error--contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+.error--contain p:first-child{
+    font-size: 10rem;
+}
+
+.error--contain p:nth-child(2){
+    font-size: 5rem;
+}
+
+.error--contain:last-child{
+    font-size: 1.5rem;
+}

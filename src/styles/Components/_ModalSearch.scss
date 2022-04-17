@@ -1,0 +1,72 @@
+.modal{
+    background-color: $white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba($black, .5);
+    position: absolute;
+    width: 320px;
+    top: 42px;
+    right: 0;
+    z-index: 100;
+}
+
+.modal::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    clip-path: polygon(51% 53%, 0% 100%, 100% 100%);
+    background-color: $red;
+    top: -18px;
+    right: 10px;
+    z-index: 200;
+}
+
+.modal--header{
+    background-color: $red;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.modal--header > p{
+    padding: 0 10px;
+}
+
+.modal--header > p{
+    font-weight: bold;
+}
+
+.modal--header img{
+    width: 20px;
+    height: 20px;
+}
+
+.years{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 38.5px);
+    padding: 5px;
+}
+
+.years p.active{
+    background-color: $red;
+    color: $white;
+}
+
+
+.years > p{
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    color: $gray;
+    font-weight: bold;
+}
+
+.years > p:hover{
+    background-color: $red;
+    color: white;
+}

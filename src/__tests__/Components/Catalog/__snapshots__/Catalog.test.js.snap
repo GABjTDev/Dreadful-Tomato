@@ -1,0 +1,270 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test catalog page Snapshot Catalog 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        class="container header"
+      >
+        <div
+          class="header--logo"
+        >
+          <a
+            href="/"
+          >
+            <img
+              alt="Logo de Dreadfull Tomato"
+              src="logo.png"
+            />
+          </a>
+        </div>
+        <div
+          class="header--login"
+        >
+          <ul>
+            <li
+              class="login"
+            >
+              Login
+              <img
+                alt="icon de login"
+                src="icon-login.png"
+              />
+            </li>
+            <li
+              class="trialFree"
+            >
+              Star you free trial
+            </li>
+          </ul>
+        </div>
+        <div
+          class="header--menu"
+        >
+          <img
+            alt="icon de menu"
+            src="icon-menu.png"
+          />
+        </div>
+      </header>
+      <div
+        class="search false"
+      >
+        <div
+          class="container search-container"
+        >
+          <form
+            class="search--form"
+          >
+            <div
+              class="input input--name"
+            >
+              <img
+                alt="loupe icon"
+                class="input--img"
+                src="icon-loupe.png"
+              />
+              <input
+                class="input--text"
+                placeholder="Name"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="input input--picker"
+            >
+              <div
+                class="input--click"
+              >
+                <img
+                  alt="calendar icon"
+                  class="input--img"
+                  src="icon-calendar.png"
+                />
+                <input
+                  class="input--text"
+                  placeholder="1920-1988"
+                  readonly=""
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+            <button
+              style="display: none;"
+            />
+          </form>
+        </div>
+      </div>
+      <main
+        class="main--catalog"
+      >
+        <p
+          style="color: white; text-align: center;"
+        >
+          There are no matches 
+        </p>
+      </main>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="container header"
+    >
+      <div
+        class="header--logo"
+      >
+        <a
+          href="/"
+        >
+          <img
+            alt="Logo de Dreadfull Tomato"
+            src="logo.png"
+          />
+        </a>
+      </div>
+      <div
+        class="header--login"
+      >
+        <ul>
+          <li
+            class="login"
+          >
+            Login
+            <img
+              alt="icon de login"
+              src="icon-login.png"
+            />
+          </li>
+          <li
+            class="trialFree"
+          >
+            Star you free trial
+          </li>
+        </ul>
+      </div>
+      <div
+        class="header--menu"
+      >
+        <img
+          alt="icon de menu"
+          src="icon-menu.png"
+        />
+      </div>
+    </header>
+    <div
+      class="search false"
+    >
+      <div
+        class="container search-container"
+      >
+        <form
+          class="search--form"
+        >
+          <div
+            class="input input--name"
+          >
+            <img
+              alt="loupe icon"
+              class="input--img"
+              src="icon-loupe.png"
+            />
+            <input
+              class="input--text"
+              placeholder="Name"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="input input--picker"
+          >
+            <div
+              class="input--click"
+            >
+              <img
+                alt="calendar icon"
+                class="input--img"
+                src="icon-calendar.png"
+              />
+              <input
+                class="input--text"
+                placeholder="1920-1988"
+                readonly=""
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <button
+            style="display: none;"
+          />
+        </form>
+      </div>
+    </div>
+    <main
+      class="main--catalog"
+    >
+      <p
+        style="color: white; text-align: center;"
+      >
+        There are no matches 
+      </p>
+    </main>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

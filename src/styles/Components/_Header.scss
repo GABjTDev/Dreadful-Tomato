@@ -1,0 +1,99 @@
+.header{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0 20px;
+    height: 60px;
+    justify-content: space-between;
+
+    @media screen and(min-width: '768px'){
+        padding: 0;
+    }
+
+}
+
+.header--logo{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+
+    img{
+        width: 200px;
+
+        @media screen and(min-width: '768px'){
+            width: auto;
+        }
+
+    }
+
+}
+
+.header--login{
+    display: none;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+
+    img{
+        margin-left: 5px;
+    }
+
+    @media screen and(min-width: '1024px'){
+        display: flex;
+        justify-content: flex-end;
+    }
+
+}
+
+.header--login > ul{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    list-style: none;
+
+    li{
+        margin: 0 10px;
+    }
+
+    .login{
+        display: flex;
+        align-items: center;
+        border-left: 1px solid $white;
+        border-right: 1px solid $white;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+    .login:hover{
+        background-color: lighten($blackLight, $amount: 2) ;
+    }
+
+    .trialFree{
+        background-color: $red;
+        padding: 5px 25px;
+        border-radius: 50px;
+        width: 190px;
+        transition: all .5s ease;
+        cursor: pointer;
+    }
+
+    .trialFree:hover{
+        background-color: $redHover;
+    }
+
+}
+
+
+.header--menu{
+    cursor: pointer;
+
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    @media screen and(min-width: '1024px'){
+        display: none;
+    }
+}

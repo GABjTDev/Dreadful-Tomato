@@ -1,0 +1,58 @@
+.nav{
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.nav > ul{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+}
+
+.nav ul > li{
+    height: 100%;
+    margin: 0;
+}
+
+.links{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    color: $white;
+    text-decoration: none;
+    transition: all .2s ease;
+}
+
+.links:hover{
+    background: rgba($white, .2);
+}
+
+.links.active{
+    background-color: $red;
+}
+
+.links > img{
+    margin-right: 5px;
+}
+
+.btn.filter{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    font-weight: bold;
+    transition: all .4s ease;
+}
+
+.btn.filter:hover{
+    background: rgba($white, .2);
+}
+
+.btn.filter.active{
+    background: rgba($white, .2);
+}
